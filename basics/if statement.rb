@@ -11,7 +11,7 @@ else
    puts "You are Male and Tall"
 end
 
-def max(num1,num2,num3)
+def max(num0,num2,num3)
     if num1 >= num2 and num1 >= num3
         return num1
     elsif num2 >= num1 and num2 >= num3
