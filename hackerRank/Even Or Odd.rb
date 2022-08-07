@@ -16,4 +16,6 @@ def odd_or_even(number)
   #number.odd? ? "Odd" : "Even"
 end
 
-puts odd_or_even(10)
+puts odd_or_even(10) # => puts "Even"
+
+puts odd_or_even(11) # => puts "Odd"

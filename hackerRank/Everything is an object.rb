@@ -1,2 +1,2 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-print self
+print self # => puts main object of the program
