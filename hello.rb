@@ -1,5 +1,0 @@
-puts "    /|"
-puts "   / |"
-puts "  /  |"
-puts " /___|"
-puts "Hello Ruby Devs !"
