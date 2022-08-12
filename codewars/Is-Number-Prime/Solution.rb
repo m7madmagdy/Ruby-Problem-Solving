@@ -6,16 +6,17 @@
 
 #Solution 1
 
-require 'prime'
-def is_num_prime(num)
-  num.prime?
-end
-
-puts is_num_prime(2) # => true
+# require 'prime'
+#
+# #Solution 1
+# def is_num_prime(num)
+#   num.prime?
+# end
+#
+# puts is_num_prime(2) # => true
 
 #Solution 2
 def is_prime(num)
-
   if num < 2
     return false
   end
@@ -25,7 +26,6 @@ def is_prime(num)
       return false
     end
   end
-
   true
 end
 

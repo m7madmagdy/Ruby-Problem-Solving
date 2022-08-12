@@ -1,7 +1,9 @@
-def rot13(secret_messages)
-  secret_messages.collect do |message|
-    message.tr!("abcdefghijklmnopqrstuvwxyz",
-                "nopqrstuvwxyzabcdefghijklm")
-  end
-  secret_messages
+def sum_terms(n)
+  (0..n).inject {
+    |sum, n| sum + n ** 2 + 1
+  }
 end
+
+puts sum_terms(2) # => 7
+
+
