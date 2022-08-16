@@ -4,29 +4,20 @@
 
 # Per Wikipedia, a prime number ( or a prime ) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
-#Solution 1
-
+# Solution 1
 # require 'prime'
 #
-# #Solution 1
 # def is_num_prime(num)
 #   num.prime?
 # end
 #
 # puts is_num_prime(2) # => true
 
-#Solution 2
+# #Solution 2
 def is_prime(num)
-  if num < 2
-    return false
-  end
-
-  (2..num-1).each do |i|
-    if num % i == 0
-      return false
-    end
-  end
-  true
+  return false if num <= 1 || (num > 2 && num.even?)
+  return true if num == 2
+  (3..Math.sqrt(num)).select {|n| num % n == 0}.size >= 1 ? false : true
 end
 
-puts is_prime(6) # => false
+puts is_prime(12) # => false
