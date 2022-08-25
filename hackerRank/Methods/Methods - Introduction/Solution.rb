@@ -4,14 +4,13 @@ def is_prime(num)
     return false
   end
 
-  (2..num-1).each do |i|
+  (2...num).each do |i|
     if num % i == 0
       return false
     end
   end
   true
 end
-
 
 #Solution 2
 # This Solution is need to Use Prime Module

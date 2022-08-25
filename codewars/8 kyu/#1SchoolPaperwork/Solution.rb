@@ -1,5 +1,5 @@
 
-# Link: https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd/train/ruby
+# TODO Link: https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd/train/ruby
 
 def paperwork(n, m)
   return 0 if n < 1 || m < 1
