@@ -17,7 +17,7 @@ puts first_non_consecutive([1, 2, 3, 4, 6, 7, 8]) #== 6
 #  arr.each_with_index do |i|
 #   if arr[i]-arr[i-1] > 1
 #     return arr[i]
-#   elsif arr[i]== arr.sort
+#   elsif arr[i] == arr.sort
 #     return nil
 #   end
 # end
