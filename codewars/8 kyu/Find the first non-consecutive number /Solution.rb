@@ -9,7 +9,7 @@ def first_non_consecutive(arr)
   end
 end
 
-puts first_non_consecutive([1, 2, 3, 4, 6, 7, 8]) #== 6
+puts first_non_consecutive([1, 2, 3, 4, 6, 7, 8]) # => 6
 
 
 # TODO: Solution 2 with iterate_array and index
